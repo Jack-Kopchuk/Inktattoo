@@ -1522,19 +1522,19 @@ fieldset[disabled] a.btn {
 .btn--brand {
   color: #fff;
   background-color: #9a977a;
-  border-color: #b7a172;
+  border-color: #f2efe5;
 }
 
 .btn--brand:hover {
   color: #fff;
-  background-color: #a38953;
-  border-color: #a38953;
+  background-color: #e1dac3;
+  border-color: #e1dac3;
 }
 
 .btn--brand:active, .btn--brand.active {
   color: #fff;
-  background-color: #a38953;
-  border-color: #a38953;
+  background-color: #e1dac3;
+  border-color: #e1dac3;
 }
 
 .btn--brand.disabled, .btn--brand.disabled:hover, .btn--brand.disabled:focus, .btn--brand.disabled.focus, .btn--brand.disabled:active, .btn--brand.disabled.active, .btn--brand[disabled], .btn--brand[disabled]:hover, .btn--brand[disabled]:focus, .btn--brand[disabled].focus, .btn--brand[disabled]:active, .btn--brand[disabled].active,
@@ -1545,7 +1545,7 @@ fieldset[disabled] .btn--brand.focus,
 fieldset[disabled] .btn--brand:active,
 fieldset[disabled] .btn--brand.active {
   background-color: #9a977a;
-  border-color: #b7a172;
+  border-color: #f2efe5;
 }
 
 .btn--link {
