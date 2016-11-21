@@ -1736,13 +1736,17 @@ input[type="search"] {
   -webkit-appearance: none;
 }
 
+.header {
+  position: relative;
+}
+
 .header img {
   background-size: cover;
   width: 100%;
   height: auto;
 }
 
-.header .navigation {
+.navigation {
   position: absolute;
   top: 0;
   left: 50%;
@@ -1751,22 +1755,22 @@ input[type="search"] {
   font-size: 12px;
 }
 
-.header .navigation ul li {
+.navigation ul li {
   display: inline-block;
   padding-right: 29px;
   float: left;
 }
 
-.header .navigation ul li a {
+.navigation ul li a {
   text-decoration: none;
   padding-bottom: 8px;
 }
 
-.header .navigation ul li a:hover {
+.navigation ul li a:hover {
   border-bottom: 2px #000 solid;
 }
 
-.header .navigation ul .logo {
+.navigation ul .logo {
   width: 260px;
   height: 137px;
   background: url(../images/ink-tattoo-logo.png) no-repeat;
@@ -1775,7 +1779,17 @@ input[type="search"] {
   margin: 0 53px 0 24px;
 }
 
-.header .navigation ul .logo a {
+.navigation ul .logo a {
   display: block;
   height: 100%;
+}
+
+.footer {
+  position: relative;
+  background: #aeaeae;
+  padding: 250px 0;
+}
+
+.footer .navigation {
+  top: 170px;
 }
