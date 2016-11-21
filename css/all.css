@@ -1746,7 +1746,7 @@ input[type="search"] {
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: -384px;
+  margin: 27px 0 0 -384px;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -1759,6 +1759,11 @@ input[type="search"] {
 
 .header .navigation ul li a {
   text-decoration: none;
+  padding-bottom: 8px;
+}
+
+.header .navigation ul li a:hover {
+  border-bottom: 2px #000 solid;
 }
 
 .header .navigation ul .logo {
