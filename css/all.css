@@ -1774,3 +1774,14 @@ input[type="search"] {
   display: block;
   height: 100%;
 }
+
+.promo__title {
+  width: 50%;
+  float: left;
+}
+
+.promo__title__picture {
+  background-image: url(../images/img-studio-bg.jpg);
+  width: 100%;
+  height: 100%;
+}
