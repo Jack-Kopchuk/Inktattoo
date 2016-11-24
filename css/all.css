@@ -1784,15 +1784,33 @@ input[type="search"] {
   height: 100%;
 }
 
+.wrapper-block {
+  overflow: hidden;
+}
+
 .promo__title {
   width: 50%;
   float: left;
+  position: relative;
 }
 
-.promo__title__picture {
-  background-image: url(../images/img-studio-bg.jpg);
+.promo__title__picture img {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.promo__title__discription {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -56px 0 0 -140px;
+  border: 10px solid #000;
+  padding: 27px 42px;
+}
+
+.promo__title__discription h1 {
+  margin: 0;
+  font-weight: bold;
 }
 
 .footer {
