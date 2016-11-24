@@ -1788,6 +1788,10 @@ input[type="search"] {
   overflow: hidden;
 }
 
+.promo {
+  overflow: hidden;
+}
+
 .promo__title {
   width: 50%;
   float: left;
@@ -1842,6 +1846,34 @@ input[type="search"] {
 
 .article__title h2 {
   margin: 0;
+}
+
+.promo__discription {
+  width: 50%;
+  float: left;
+  padding: 100px 85px 0;
+}
+
+.promo__discription__header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.promo__discription__content {
+  text-align: center;
+}
+
+.promo__discription__footer {
+  text-align: left;
+}
+
+.block__content__photo {
+  width: 16.66%;
+  float: left;
+}
+
+.block__content__photo img {
+  width: 100%;
 }
 
 .footer {
