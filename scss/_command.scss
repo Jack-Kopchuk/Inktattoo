@@ -1,0 +1,26 @@
+.wrapper-command {
+	overflow: hidden;
+}
+.command {
+	overflow: hidden;
+	width: 100%;
+	& .promo__title {
+		width: 33.3%;
+		float: left;
+		position: relative;
+		& img {
+			width: 100%;
+			height: auto;
+		}
+		&__article {
+			background: #ccc8b6;
+		}
+	}
+}
+.article {
+	&__title {
+		& h2 {
+			margin: 0;
+		}
+	}
+}

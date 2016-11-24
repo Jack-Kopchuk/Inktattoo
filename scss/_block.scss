@@ -14,12 +14,15 @@
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			margin: -56px 0 0 -140px;
+			margin: -50px 0 0 -150px;
 			border: 10px solid #000;
-			padding: 27px 42px;
+			width: 300px;
+			height: 100px;
+			text-align: center;
 			& h1 {
 				margin: 0;
 				font-weight: bold;
+				line-height: 80px;
 			}
 		}
 	}
