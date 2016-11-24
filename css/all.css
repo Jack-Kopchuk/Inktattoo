@@ -1820,34 +1820,6 @@ input[type="search"] {
   line-height: 80px;
 }
 
-.wrapper-command {
-  overflow: hidden;
-}
-
-.command {
-  overflow: hidden;
-  width: 100%;
-}
-
-.command .promo__title {
-  width: 33.3%;
-  float: left;
-  position: relative;
-}
-
-.command .promo__title img {
-  width: 100%;
-  height: auto;
-}
-
-.command .promo__title__article {
-  background: #ccc8b6;
-}
-
-.article__title h2 {
-  margin: 0;
-}
-
 .promo__discription {
   width: 50%;
   float: left;
@@ -1874,6 +1846,34 @@ input[type="search"] {
 
 .block__content__photo img {
   width: 100%;
+}
+
+.wrapper-command {
+  overflow: hidden;
+}
+
+.command {
+  overflow: hidden;
+  width: 100%;
+}
+
+.command .promo__title {
+  width: 33.3%;
+  float: left;
+  position: relative;
+}
+
+.command .promo__title img {
+  width: 100%;
+  height: auto;
+}
+
+.command .promo__title__article {
+  background: #ccc8b6;
+}
+
+.article__title h2 {
+  margin: 0;
 }
 
 .footer {
