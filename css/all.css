@@ -1784,6 +1784,17 @@ input[type="search"] {
   height: 100%;
 }
 
+<<<<<<< HEAD
+.promo__title {
+  width: 50%;
+  float: left;
+}
+
+.promo__title__picture {
+  background-image: url(../images/img-studio-bg.jpg);
+  width: 100%;
+  height: 100%;
+=======
 .footer {
   position: relative;
   background: #aeaeae;
@@ -1792,4 +1803,5 @@ input[type="search"] {
 
 .footer .navigation {
   top: 170px;
+>>>>>>> d67ca5ffc4e59614cf175c9df201fbad31094371
 }
