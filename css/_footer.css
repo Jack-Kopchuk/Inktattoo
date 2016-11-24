@@ -1,0 +1,9 @@
+.footer {
+  position: relative;
+  background: #aeaeae;
+  padding: 250px 0;
+}
+
+.footer .navigation {
+  top: 170px;
+}
