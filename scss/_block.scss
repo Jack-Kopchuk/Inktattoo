@@ -2,6 +2,7 @@
 	overflow: hidden;
 }
 .promo {
+	overflow: hidden;
 	&__title {
 		width: 50%;
 		float: left;
@@ -20,6 +21,32 @@
 			& h1 {
 				margin: 0;
 				font-weight: bold;
+			}
+		}
+	}
+	&__discription {
+		width: 50%;
+		float: left;
+		padding: 100px 85px 0;
+		&__header img {
+			display: block;
+			margin: 0 auto;
+		}
+		&__content {
+			text-align: center;
+		}
+		&__footer {
+			text-align: left;
+		}
+	}
+}
+.block {
+	&__content {
+		&__photo {
+			width: 16.66%;
+			float: left;
+			& img {
+				width: 100%;
 			}
 		}
 	}
