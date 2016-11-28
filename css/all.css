@@ -1905,7 +1905,8 @@ input[type="search"] {
 
 .article__icons ul li {
   display: inline-block;
-  margin-right: 21px;
+  margin-right: 27px;
+  margin-bottom: 15px;
 }
 
 .article__icons ul li.icon-facebook img {
@@ -1930,6 +1931,9 @@ input[type="search"] {
 
 .article__icons ul li.icon-google img {
   width: 33px;
+}
+
+.article__icons ul li.icon-google {
   margin-right: 0;
 }
 
@@ -1938,13 +1942,83 @@ a.facebook {
   text-indent: -9999px;
   width: 17px;
   height: 30px;
-  background: url(../images/icons/facebook2.svg) no-repeat;
+  background: url(../images/icons/PNG/facebook2.png) no-repeat;
   background-size: 17px 30px;
 }
 
 a.facebook:hover {
-  background: url(../images/icons/svgcolor/facebook.svg) no-repeat;
+  background: url(../images/icons/svgcolor/facebook.png) no-repeat;
   background-size: 17px 30px;
+}
+
+a.twitter {
+  display: block;
+  text-indent: -9999px;
+  width: 34px;
+  height: 30px;
+  background: url(../images/icons/PNG/Untitled-1.png) no-repeat;
+  background-size: 34px 30px;
+}
+
+a.twitter:hover {
+  background: url(../images/icons/svgcolor/twitter.png) no-repeat;
+  background-size: 34px 30px;
+}
+
+a.tumblr {
+  display: block;
+  text-indent: -9999px;
+  width: 18px;
+  height: 30px;
+  background: url(../images/icons/PNG/tumblr.png) no-repeat;
+  background-size: 18px 30px;
+}
+
+a.tumblr:hover {
+  background: url(../images/icons/svgcolor/tumblr.png) no-repeat;
+  background-size: 18px 30px;
+}
+
+a.linkedin {
+  display: block;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background: url(../images/icons/PNG/linkedin2.png) no-repeat;
+  background-size: 30px 30px;
+}
+
+a.linkedin:hover {
+  background: url(../images/icons/svgcolor/linkedin.png) no-repeat;
+  background-size: 30px 30px;
+}
+
+a.instagram {
+  display: block;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background: url(../images/icons/PNG/instagram2.png) no-repeat;
+  background-size: 30px 30px;
+}
+
+a.instagram:hover {
+  background: url(../images/icons/svgcolor/instagram.png) no-repeat;
+  background-size: 30px 30px;
+}
+
+a.google {
+  display: block;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background: url(../images/icons/PNG/google.png) no-repeat;
+  background-size: 30px 30px;
+}
+
+a.google:hover {
+  background: url(../images/icons/svgcolor/google.png) no-repeat;
+  background-size: 30px 30px;
 }
 
 .footer {
