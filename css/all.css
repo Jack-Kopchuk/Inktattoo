@@ -1860,6 +1860,14 @@ input[type="search"] {
   width: 100%;
 }
 
+.bg-dark {
+  background: #ccc8b6;
+}
+
+.padding-different {
+  padding: 86px 54px 50px;
+}
+
 .wrapper-command {
   overflow: hidden;
 }
@@ -1880,12 +1888,63 @@ input[type="search"] {
   height: auto;
 }
 
-.command .promo__title__article {
-  background: #ccc8b6;
+.article__title {
+  text-align: center;
+  margin-bottom: 52px;
 }
 
 .article__title h2 {
   margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.article__discription {
+  margin-bottom: 47px;
+}
+
+.article__icons ul li {
+  display: inline-block;
+  margin-right: 21px;
+}
+
+.article__icons ul li.icon-facebook img {
+  width: 17px;
+}
+
+.article__icons ul li.icon-twitter img {
+  width: 32px;
+}
+
+.article__icons ul li.icon-tumblr img {
+  width: 27px;
+}
+
+.article__icons ul li.icon-linkedin img {
+  width: 30px;
+}
+
+.article__icons ul li.icon-instagram img {
+  width: 31px;
+}
+
+.article__icons ul li.icon-google img {
+  width: 33px;
+  margin-right: 0;
+}
+
+a.facebook {
+  display: block;
+  text-indent: -9999px;
+  width: 17px;
+  height: 30px;
+  background: url(../images/icons/facebook2.svg) no-repeat;
+  background-size: 17px 30px;
+}
+
+a.facebook:hover {
+  background: url(../images/icons/svgcolor/facebook.svg) no-repeat;
+  background-size: 17px 30px;
 }
 
 .footer {
