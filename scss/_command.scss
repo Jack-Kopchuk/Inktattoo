@@ -1,3 +1,12 @@
+.bg-dark {
+	background: #ccc8b6;
+}
+.padding-different {
+	padding: 86px 54px 50px;
+}
+
+
+
 .wrapper-command {
 	overflow: hidden;
 }
@@ -13,14 +22,60 @@
 			height: auto;
 		}
 		&__article {
-			background: #ccc8b6;
 		}
 	}
 }
 .article {
 	&__title {
+		text-align: center;
+		margin-bottom: 52px;
 		& h2 {
 			margin: 0;
+			text-transform: uppercase;
+			font-weight: bold;
 		}
 	}
+	&__discription {
+		margin-bottom: 47px;
+	}
+	&__icons {
+		& ul {
+			& li {
+				display: inline-block;
+				margin-right: 21px;
+				&.icon-facebook img {
+					width: 17px;
+
+				}
+				&.icon-twitter img {
+					width: 32px;
+				}
+				&.icon-tumblr img {
+					width: 27px;
+				}
+				&.icon-linkedin img {
+					width: 30px;
+				}
+				&.icon-instagram img {
+					width: 31px;
+				}
+				&.icon-google img {
+					width: 33px;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+a.facebook {
+  display: block;
+  text-indent: -9999px;
+  width: 17px;
+  height: 30px;
+  background: url(../images/icons/facebook2.svg) no-repeat;
+  background-size: 17px 30px;
+  &:hover {
+  	background: url(../images/icons/svgcolor/facebook.svg) no-repeat;
+  	background-size: 17px 30px;
+  }
 }
