@@ -1,0 +1,38 @@
+.wrapper-quote {
+	padding: 114px 370px 55px;
+	background: url(../images/bg-testimorial.jpg) no-repeat;
+	background-size: cover;
+}
+.quote {
+	width: 100%;
+	display: block;
+	font-style: italic;
+	color: $body-bg;
+	&__title {
+		font-weight: bold;
+		font-size: 24px;
+		&__discription {
+			padding: 10px 100px;
+		}
+		& span {
+			font-size: 150px;
+			font-weight: normal;
+		}
+	}
+	&__discription p {
+		font-size: 18px;
+		text-align: right;
+		margin-top: 65px;
+	}
+}
+.left {
+	line-height: 0.1;
+}
+.right {
+	line-height: 0.8;
+}
+.wrapper-twitter {
+	padding: 114px 370px 124px;
+	background: url(../images/bg-twitter.jpg) no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,20 @@
+.wrapper-gallery {
+  overflow: hidden;
+}
+
+.gallery {
+  overflow: hidden;
+  width: 100%;
+}
+
+.gallery__content {
+  width: 40%;
+  float: left;
+  position: relative;
+  background: #afac9c;
+}
+
+.gallery__picture {
+  width: 20%;
+  float: left;
+}
